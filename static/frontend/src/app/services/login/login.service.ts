@@ -28,4 +28,18 @@ export class LoginService {
   //   return this.http.get(this.loginUrl, userData);
   // }
 
+
+   // loginUser(userData){
+  //   return this.http.get(this.loginUrl, userData);
+  // }
+
+
+  // loginUser(userData){
+  //   return this.http.get(this.loginUrl, userData);
+  // }
+
+
+   // loginUser(userData){
+  //   return this.http.get(this.loginUrl, userData);
+  // }
 }
