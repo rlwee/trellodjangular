@@ -1,0 +1,42 @@
+<div style="text-align:center">
+  <h1>
+    Login To Trello
+  </h1>
+
+
+
+    <form 
+      [formGroup]="form"  
+      (ngSubmit)="loginUser()" 
+      class="w-100"
+      id="login-form"
+    >
+
+        <input 
+          formControlName="username"
+          id="username-input" 
+          class="form-control" 
+          type="text" 
+          name="username"
+          placeholder="username"
+        >
+
+        <input 
+          formControlName="password"
+          id="password-input" 
+          class="form-control" 
+          type="text" 
+          name="password"
+          placeholder="password"
+        >
+        
+        <button 
+          type="submit"
+        >
+          login
+        </button>
+    
+    </form>
+
+
+</div>

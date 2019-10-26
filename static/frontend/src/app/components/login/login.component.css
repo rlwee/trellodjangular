@@ -1,0 +1,16 @@
+h1 {
+    font-weight: normal;
+}
+
+#login-form{
+    display: inline-block;
+}
+
+#username-input{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#password-input{
+    display: block;
+}
