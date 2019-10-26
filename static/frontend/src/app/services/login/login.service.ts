@@ -39,7 +39,5 @@ export class LoginService {
   // }
 
 
-   // loginUser(userData){
-  //   return this.http.get(this.loginUrl, userData);
-  // }
+   
 }
