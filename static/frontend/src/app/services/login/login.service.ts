@@ -19,5 +19,13 @@ export class LoginService {
     return this.http.post(this.loginUrl, val);
   }
 
+ // loginUser(userData){
+  //   return this.http.get(this.loginUrl, userData);
+  // }
+
+
+  // loginUser(userData){
+  //   return this.http.get(this.loginUrl, userData);
+  // }
 
 }
